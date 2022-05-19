@@ -1,0 +1,53 @@
+.fee-container {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 0.25em;
+	align-items: center;
+	width: 80%;
+}
+
+.chain-bar {
+	position: absolute;
+	height: 100%;
+	left: 0.75em;
+	width: 5px;
+	background-color: rgb(148,163,184);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chain-circle {
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: rgb(148,163,184);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chain-circle-text {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.fee-text {
+	margin-left: 2em;
+	min-width: 350px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.5em;
+}
+
+.right-margin {
+	min-width: 10em;
+	margin-right: 0.5em;
+}
+
+.bold {
+	font-weight: 700;
+}

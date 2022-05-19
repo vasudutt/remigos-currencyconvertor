@@ -1,0 +1,31 @@
+.currencyrow-container {
+	display: flex;
+	min-width: 350px;
+}
+
+.currency-label-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+	min-width: 300px;
+	background-color: rgb(226, 232, 240);
+	border-radius: 0.375em 0 0 0.375em;
+	color: #4f545f;
+	padding: 0.75em;
+	font-size: 0.75em;
+}
+
+.currency-label-container > input {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+select {
+	border: none;
+	background-color: rgb(226, 232, 240);
+	font-size: 1em;
+	border-left: solid 2.5px black;
+	border-radius: 0 0.375em 0.375em 0;
+	padding: 0.5em;
+}

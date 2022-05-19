@@ -1,0 +1,11 @@
+.nav-container{
+	width: 100vw;
+	border-bottom: solid 2px rgba(156,163,175);
+}
+
+.logo-img{
+	width: 20vw;
+	min-width: 150px;
+	height: auto;
+	padding: 10px;
+}
