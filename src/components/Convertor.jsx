@@ -3,7 +3,7 @@ import './styles/Convertor.css'
 import CurrencyRow from './CurrencyRow';
 import FeeComponent from './FeeComponent';
 
-const API_KEY = process.env.REACT_API_KEY;
+const API_KEY = 'bSUb70E4nK27fMRpqHTTZNukPGPQDCO9';
 const base = 'INR';
 const symbols = 'GBP%2CUSD%2CCAD%2CAUD'
 const API_URL=`https://api.apilayer.com/exchangerates_data/latest?symbols=${symbols}&base=${base}`
